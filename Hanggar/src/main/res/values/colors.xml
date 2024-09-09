@@ -14,4 +14,7 @@
     <color name="vpi__bright_foreground_inverse_holo_light">
         @color/vpi__bright_foreground_holo_dark
     </color>
+
+    <!-- ***** Spots Dialog ***** -->
+    <color name="spots_dialog_color">@android:color/holo_blue_dark</color>
 </resources>
