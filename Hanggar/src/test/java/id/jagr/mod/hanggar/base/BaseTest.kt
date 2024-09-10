@@ -3,7 +3,10 @@ package id.jagr.mod.hanggar.base
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
 import org.junit.Before
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
 
+@RunWith(RobolectricTestRunner::class)
 abstract class BaseTest {
 
     lateinit var mockWebServer: MockWebServer

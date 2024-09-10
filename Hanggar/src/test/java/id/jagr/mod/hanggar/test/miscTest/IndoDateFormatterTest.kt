@@ -21,7 +21,6 @@ import org.mockito.MockitoAnnotations
 import org.robolectric.RobolectricTestRunner
 
 @ExperimentalCoroutinesApi
-@RunWith(RobolectricTestRunner::class)
 class IndoDateFormatterTest : BaseTest() {
 
     private val appContext: Context = ApplicationProvider.getApplicationContext()
