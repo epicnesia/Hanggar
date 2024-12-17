@@ -35,12 +35,12 @@ def getVersionCode = { ->
 
 android {
     namespace 'id.jagr.hanggar'
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "id.jagr.hanggar"
         minSdk 21
-        targetSdk 33
+        targetSdk 35
         versionCode getVersionCode()
         versionName getVersionName()
 

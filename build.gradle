@@ -1,22 +1,22 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id 'com.android.application' version '7.4.0' apply false
-    id 'com.android.library' version '7.4.0' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.10' apply false
-    id "jacoco"
-    id "org.sonarqube" version "3.5.0.2730" apply false
+    id 'com.android.application' version '8.4.2' apply false
+    id 'com.android.library' version '8.4.2' apply false
+    id 'org.jetbrains.kotlin.android' version '2.0.0' apply false
+//    id "jacoco"
+//    id "org.sonarqube" version "3.5.0.2730" apply false
 }
 
-apply from: "$project.rootDir/sonar.gradle"
+//apply from: "$project.rootDir/sonar.gradle"
 
-subprojects {
-    apply plugin: "org.sonarqube"
-    sonarqube {
-        properties {
-            property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/testDebugUnitTestCoverage/testDebugUnitTestCoverage.xml"
-        }
-    }
-}
+//subprojects {
+//    apply plugin: "org.sonarqube"
+//    sonarqube {
+//        properties {
+//            property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/testDebugUnitTestCoverage/testDebugUnitTestCoverage.xml"
+//        }
+//    }
+//}
 
 //sonarqube {
 //    properties {
