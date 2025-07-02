@@ -178,4 +178,16 @@
         <attr name="monthFontColorDisabled" format="color" />
         <attr name="dialogActionButtonColor" format="color" />
     </declare-styleable>
+
+    <!-- ***** Custom Toggle Button ***** -->
+    <declare-styleable name="CustomToggleButton">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="checkedColor" format="color" />
+        <attr name="checkedBorderColor" format="color" />
+        <attr name="uncheckedColor" format="color" />
+        <attr name="uncheckedBorderColor" format="color" />
+        <attr name="customToggleButtonRadius" format="dimension" />
+        <attr name="checkedTextColor" format="color" />
+        <attr name="uncheckedTextColor" format="color" />
+    </declare-styleable>
 </resources>
