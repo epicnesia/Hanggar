@@ -8,4 +8,19 @@
         <item name="DialogSpotColor">@android:color/holo_blue_dark</item>
         <item name="DialogSpotCount">5</item>
     </style>
+
+    <!-- ***** Month & Year Picker ***** -->
+    <style name="MonthPickerDialogStyle" >
+        <!-- Customize month picker theme here. -->
+        <!-- <item name="monthBgColor">#FFFFFF</item>
+         <item name="monthBgSelectedColor">#FF4081</item>
+         <item name="monthFontColorSelected">#ffffff</item>
+         <item name="monthFontColorNormal">#000000</item>
+         <item name="monthFontColorDisabled">#33000000</item>
+
+         <item name="headerBgColor">#FF4081</item>
+         <item name="headerFontColorSelected">#ffffff</item>
+         <item name="headerFontColorNormal">#85ffffff</item>
+         <item name="headerTitleColor">#ffffff</item>-->
+    </style>
 </resources>
